@@ -7,6 +7,7 @@ ls = results.split("\n")
 ls = ls[4:]
 ssids = []
 i = 0
+
 while i < len(ls):
     if i % 5 == 0:
         ssids.append(ls[i])
